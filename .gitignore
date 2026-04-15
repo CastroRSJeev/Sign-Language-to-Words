@@ -1,0 +1,17 @@
+# Model binaries
+model/sign_model.pth
+model/sign_model.onnx
+model/train_lm.npz
+model/test_lm.npz
+
+# Keep these (needed to run predict.py)
+!model/label_map.npy
+!model/hand_landmarker.task
+
+# Sign MNIST CSVs (too large)
+data/sign_mnist_*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
